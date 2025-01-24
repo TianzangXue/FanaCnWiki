@@ -1,0 +1,485 @@
+/*******************************************************************************
+    NUDN2 General Definitions 「ノート二段組み」
+*******************************************************************************/
+.clear {
+    clear: both;
+}
+#footer {
+    background : #FFF;
+    border-top : 1px dashed #C0C0C0;
+    margin : 0 0 10px 0;
+    padding: 10px;
+    position : relative;
+    z-index: 13;
+}
+#footer hr {
+    display: none;
+}
+#footer p {
+    font-size: 0.9em;
+    margin : 5px 0 0px 0px;
+    text-align : center;
+}
+#header {
+    background : #FFF;
+    border-bottom: 1px dashed #C0C0C0;
+    margin : 0 0 0 0;
+}
+
+#header h1 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 33px 20px 10px;
+}
+
+#container {
+    min-width: 1100px;
+    _width: 1100px;
+}
+
+#menubar {
+    color: #3e3e3e;
+    float: left;
+    font-size: 1.0em;
+    line-height: 120%;
+    overflow: hidden;
+    width: 120px;
+}
+
+
+#contents {
+    color: #2a2a2a;
+    font-size: 1.1em;
+    line-height: 160%;
+    padding: 6px 15px 15px;
+    margin:0px 0 0 190px;
+    _margin-left: 230px;
+    overflow: hidden;
+    border-left: 1px dashed #C0C0C0;
+    background-color: #ffffff;
+    min-width: 800px;
+    /width: 800px;
+}
+
+
+addr[title] {
+    border-bottom: dotted 1px;
+}
+acronym[title] {
+    border-bottom: dotted 1px;
+}
+address {
+    display: block;
+    font-style : italic;
+}
+b {
+    font-weight: bolder;
+}
+caption {
+    display: table-caption;
+    text-align : center;
+}
+center {
+    display: block;
+    text-align : center;
+}
+cite {
+    font-style : italic;
+}
+col {
+    display: table-column;
+}
+colgroup {
+    display: table-column-group;
+}
+dd {
+    display: block;
+    margin-left: 2em;
+}
+del {
+    text-decoration: line-through;
+}
+dfn {
+    font-style : italic;
+}
+dl {
+    display: block;
+    margin : 1em 0;
+}
+dl dl {
+    margin-bottom: 0;
+    margin-top : 0;
+}
+dl ol {
+    margin-bottom: 0;
+    margin-top : 0;
+}
+dl ul {
+    margin-bottom: 0;
+    margin-top : 0;
+}
+dt {
+    font-weight: bold;
+}
+em {
+    font-style : italic;
+}
+
+h2#pagetitle {
+    font-size: 1.3em;
+    margin: 8px 0 18px;
+}
+
+h1{
+    font-size: 26px;
+    margin:5px 0px 8 0px;
+}
+
+h2{
+    background:#dddddd;
+    font-size: 110%;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    padding:5px;
+    margin:5px 0px 8 0px;
+    border-bottom: solid 3px #666666;
+    border-right: solid 3px #666666;
+}
+
+h3{
+    background:#eee;
+    font-size: 100%;
+    font-weight: bold;
+    letter-spacing: 0.3em;
+    margin: 3em 0em 0em 1em;
+    padding: 1px;
+    padding-left: 0.5em;
+    border-bottom: solid 2px #aaaaaa;
+    border-left: solid 5px #aaaaaa;
+}
+
+h4{
+    background:#eee;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 100%;
+    letter-spacing: 0.1em;
+    margin: 3em 0em 0em 1em;
+    padding: 1px;
+    padding-left: 0.5em;
+    border-left: solid 3px #aaaaaa;
+}
+
+h5, h6{
+    background:#eee;
+    padding: 1px;
+    border-bottom: dotted 1px #aaaaaa;
+}
+#wrapper h1.item {
+    font-size: 1.3em;
+    margin : 8px 0 18px 0;
+}
+hr {
+    border : 1px 0;
+    display: block;
+    height : 1px;
+    margin : 0.5em auto 0.5em auto;
+}
+i {
+    font-style : italic;
+}
+ins {
+    text-decoration: underline;
+}
+li {
+    display: list-item;
+}
+multicol {
+    display: block;
+    margin : 1em 0;
+}
+nobr {
+    white-space: nowrap;
+}
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin : 1em 0;
+    padding-left : 25px;
+}
+ol dl {
+    margin-bottom: 0;
+    margin-top : 0;
+}
+ol ol {
+    margin-bottom: 0;
+    margin-top : 0;
+}
+ol ol ul {
+    list-style-type: square;
+}
+ol ul {
+    list-style-type: circle;
+    margin-bottom: 0;
+    margin-top : 0;
+}
+ol ul ul {
+    list-style-type: square;
+}
+p {
+    display: block;
+    margin : 1em 0;
+}
+plaintext {
+    background : #f8f3e6;
+    border-left: 3px solid #e44949;
+    display: block;
+    font-family: fixed;
+    margin : 3px 10px;
+    padding: 5px;
+    white-space: pre;
+}
+q:after {
+    content: close-quote;
+}
+q:before {
+    content: open-quote;
+}
+s {
+    text-decoration: line-through;
+}
+strike {
+    text-decoration: line-through;
+}
+strong {
+    font-weight: bolder;
+}
+sub {
+    font-size: smaller;
+    line-height: normal;
+    vertical-align : sub;
+}
+sup {
+    font-size: smaller;
+    line-height: normal;
+    vertical-align : super;
+}
+table {
+    -moz-box-sizing: border-box;
+    border : 1px solid #333;
+    border-collapse: collapse;
+    border-spacing : 2px;
+    display: table;
+    margin-bottom: 1em;
+    margin-top : 1em;
+    margin-left: 1px;
+    text-indent: 0;
+}
+table > tr {
+    vertical-align : middle;
+}
+table[align="center"] > caption {
+    margin-left: auto;
+    margin-right : auto;
+}
+table[align="center"] > caption[align="left"] {
+    margin-right : 0;
+}
+table[align="center"] > caption[align="right"] {
+    margin-left: 0;
+}
+tbody {
+    display: table-row-group;
+    vertical-align : middle;
+}
+td {
+    border : 1px solid #333;
+    display: table-cell;
+    padding: 4px;
+    text-align : inherit;
+    vertical-align : inherit;
+}
+tfoot {
+    display: table-footer-group;
+    vertical-align : middle;
+}
+th {
+    background : #fff;
+    border : 1px solid #333;
+    color: #000;
+    display: table-cell;
+    font-weight: bold;
+    padding: 4px;
+    vertical-align : inherit;
+}
+thead {
+    display: table-header-group;
+    vertical-align : middle;
+}
+tr {
+    display: table-row;
+    vertical-align : inherit;
+}
+u {
+    text-decoration: underline;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin : 1em 0;
+    padding-left : 25px;
+}
+ul dl {
+    margin-bottom: 0;
+    margin-top : 0;
+}
+ul ol {
+    margin-bottom: 0;
+    margin-top : 0;
+}
+ul ol ul {
+    list-style-type: square;
+}
+ul ul {
+    list-style-type: circle;
+    margin-bottom: 0;
+    margin-top : 0;
+}
+ul ul ul {
+    list-style-type: square;
+}
+var {
+    font-style : italic;
+}
+xmp {
+    background : #f8f3e6;
+    border-left: 3px solid #e44949;
+    display: block;
+    font-family: fixed;
+    margin : 3px 10px;
+    padding: 5px;
+    white-space: pre;
+}
+
+#menubar a:link {
+    text-decoration: none;
+}
+#menubar a:visited {
+    text-decoration: none;
+}
+#menubar {
+    padding: 10px;
+}
+
+
+#wrapper {
+    background-color: #F5F5F5;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background : #FFF;
+    color: #3E3E3E;
+    font-family: arial,helvetica,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"メイリオ",Meiryo,"MS Pゴシック",clean,sans-serif;
+    font-size: 76%;
+    font-size-adjust : none;
+    font-stretch : normal;
+    font-style : normal;
+    font-variant : normal;
+    font-weight: normal;
+    line-height: normal;
+    margin : 0;
+    padding: 0;
+}
+blockquote {
+    background : #f8f3e6;
+    border-left: 3px solid #6180a3;
+    border-bottom: 1px solid #f8f3e6;
+    margin : 3px 10px;
+    padding: 5px;
+}
+pre {
+    background : #f8f3e6;
+    border-left: 3px solid #e44949;
+    border-bottom: 1px solid #f8f3e6;
+    display: block;
+    font-family: fixed;
+    margin : 3px 10px;
+    padding: 5px;
+    white-space: pre;
+}
+/* Holly Hack */
+/* Hides from IE-mac \*/
+* html blockquote {height: 1%;}
+* html pre {height: 1%;}
+/* End hide from IE-mac */
+
+
+html {
+    margin : 0;
+    padding: 0;
+}
+span.word1 {
+    background-color : #ffff66;
+    color: #000;
+}
+span.word10 {
+    background-color : #990099;
+    color: #fff;
+}
+span.word2 {
+    background-color : #a0ffff;
+    color: #000;
+}
+span.word3 {
+    background-color : #99ff99;
+    color: #000;
+}
+span.word4 {
+    background-color : #ff9999;
+    color: #000;
+}
+span.word5 {
+    background-color : #ff66ff;
+    color: #000;
+}
+span.word6 {
+    background-color : #880000;
+    color: #fff;
+}
+span.word7 {
+    background-color : #00aa00;
+    color: #fff;
+}
+span.word8 {
+    background-color : #886800;
+    color: #fff;
+}
+span.word9 {
+    background-color : #004699;
+    color: #fff;
+}
+
+/*ads*/
+
+.gafc_on{
+background-color:#DFDFDF;
+}
+.gafc_domain{
+color:green;
+}
+
+a:link {
+
+color:steelblue
+
+}
+
+a:visited {
+
+color:teal
+}
+/* Hides from IE-mac \*/
+ * html #source___Frame{ width:97% !important;}
+/* End hide from IE-mac */
