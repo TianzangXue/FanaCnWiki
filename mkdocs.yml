@@ -4,3 +4,13 @@ site_author: TianzangXue
 theme:
   name: material
 
+nav: 
+  -剧情:
+    -主角: 剧情/主角.md
+    -队友: 剧情/队友.md
+    -其他角色: 剧情/其他角色.md
+    -地名: 剧情/地名.md
+    -时间线: 剧情/时间线.md
+  -地图: 
+    -地图信息: 地图/地图信息.md
+    -组合地图: 地图/组合地图.md
