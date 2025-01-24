@@ -1,0 +1,6 @@
+site_name: fanacnwiki
+site_url: https://tianzang.github.io/fanacnwiki/
+site_author: TianzangXue
+theme:
+  name: material
+
